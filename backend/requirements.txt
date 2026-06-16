@@ -1,0 +1,40 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# LangGraph + LangChain
+langgraph==0.1.5
+langchain==0.2.1
+langchain-anthropic==0.1.11
+langchain-community==0.2.1
+langsmith==0.1.63
+
+# Qdrant
+qdrant-client==1.9.1
+fastembed==0.2.7
+
+# RAG / retrieval
+rank-bm25==0.2.2
+sentence-transformers==3.0.0
+
+# Data ingestion
+sec-edgar-downloader==5.0.4
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# Evaluation
+ragas==0.1.9
+datasets==2.19.1
+
+# Utilities
+tenacity==8.3.0
+structlog==24.1.0
+google-cloud-storage==2.16.0
+google-cloud-secret-manager==2.20.0
+numpy==1.26.4
+pandas==2.2.2
